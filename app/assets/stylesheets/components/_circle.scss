@@ -1,0 +1,16 @@
+.circle-line:after {
+  display: block;
+  content: "";
+  width: .5rem;
+  height: .5rem;
+  border: #e7eef2 .1rem solid;
+  position: relative;
+  top: 28px;
+  left: 50%;
+  margin-left: -.25rem;
+  background: #fff;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  box-shadow: #fff 0 0 0 5px;
+}
