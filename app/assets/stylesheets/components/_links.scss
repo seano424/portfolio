@@ -1,0 +1,7 @@
+p > a {
+  font-weight: 600;
+  &:hover {
+    text-decoration: none;
+    color: #00C2D1;
+  }
+}

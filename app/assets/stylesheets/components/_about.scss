@@ -1,0 +1,32 @@
+span {
+  text-decoration: underline;
+  text-decoration-color: red;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+  .heroku:hover {
+    color: turquoise;
+  }
+  .ruby:hover {
+    color: #ff2400;
+  }
+  .react:hover {
+    color: tomato;
+  }
+  .jq:hover {
+    color: salmon;
+  }
+  .vanilla:hover {
+    color: darkorchid;
+  }
+  .scss:hover {
+    color: violet;
+  }
+  .git:hover {
+    color: olivedrab;
+  }
+  .postgresql:hover {
+    color: darkturquoise;
+  }
