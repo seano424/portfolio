@@ -13,3 +13,19 @@ h3 {
     color: $primary;
   }
 }
+
+
+@include media-breakpoint-down(md) {
+  .big-header {
+    font-size: 10rem;
+    padding-bottom: 8rem;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .big-header {
+    font-size: 4rem;
+    padding-bottom: 2rem;
+  }
+}
+

@@ -21,3 +21,11 @@
     }
   }
 }
+
+@include media-breakpoint-down(sm) {
+  .portfolio-nav {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -13,13 +13,13 @@
           <%= image_tag "booklub.jpg", style: 'width:15vw;', class: "my-card-image" %>
         </div> -->
         <div class="col-md-8 col-12 my-card-content">
-          <div class="title d-flex">
-            <h4 class="pr-2"><a href="https://www.booklub.xyz/" target="_blank">Booklub</a></h4>
-            <p><i class="fab fa-js-square pr-2"></i><i class="fab fa-sass"></i>
-              <%= image_tag "heroku.png", title: "Heroku", style: 'width: 6%; padding-bottom: 4px;' %>
-              <%= image_tag "ruby.png", title: "Ruby", style: 'width: 6%; padding-bottom: 4px;' %>
-              <%= image_tag "rails.png", title: "Rails", style: 'width: 6%; padding-bottom: 4px;' %>
-              <%= image_tag "postgresql.png", style: 'width: 6%; padding-bottom: 4px;', title: "PostgreSQL" %></p>
+          <div class="title d-flex flex-md-row flex-column">
+            <h4 class="project-title pr-2"><a href="https://www.booklub.xyz/" target="_blank">Booklub</a></h4>
+            <p><i class="fab fa-js-square project-js pr-2"></i><i class="fab fa-sass project-sass"></i>
+              <%= image_tag "heroku.png", title: "Heroku", class: 'project-technology-1' %>
+              <%= image_tag "ruby.png", title: "Ruby", class: 'project-technology-1' %>
+              <%= image_tag "rails.png", title: "Rails", class: 'project-technology-1' %>
+              <%= image_tag "postgresql.png", class: 'project-technology-1', title: "PostgreSQL" %></p>
           </div>
           <p>In collaboration with Lauren Smalley, Brenden Nackerman, Diana Pinon, and myself, our team created this Ruby
             on Rails app, deployed on heroku, using PostgreSQL. This is an app designed to bring book enthusiasts together
@@ -34,13 +34,13 @@
           <%= image_tag "schoolgoal.jpg", style: 'width:15vw;', class: "my-card-image" %>
         </div> -->
         <div class="col-md-8 col-12 my-card-content">
-          <div class="title d-flex">
-            <h4 class="pr-2"><a href="http://schoolgoal.herokuapp.com/" target="_blank">Schoolgoal</a></h4>
-            <p><i class="fab fa-js-square pr-2"></i><i class="fab fa-sass"></i>
-              <%= image_tag "heroku.png", title: "Heroku", style: 'width: 6%; padding-bottom: 4px;' %>
-              <%= image_tag "ruby.png", title: "Ruby", style: 'width: 6%; padding-bottom: 4px;' %>
-              <%= image_tag "rails.png", title: "Rails", style: 'width: 6%; padding-bottom: 4px;' %>
-              <%= image_tag "postgresql.png", style: 'width: 6%; padding-bottom: 4px;', title: "PostgreSQL" %></p>
+          <div class="title d-flex flex-md-row flex-column">
+            <h4 class="project-title pr-2"><a href="http://schoolgoal.herokuapp.com/" target="_blank">Schoolgoal</a></h4>
+            <p><i class="fab fa-js-square project-js pr-2"></i><i class="fab fa-sass project-sass"></i>
+              <%= image_tag "heroku.png", title: "Heroku", class: 'project-technology-1' %>
+              <%= image_tag "ruby.png", title: "Ruby", class: 'project-technology-1' %>
+              <%= image_tag "rails.png", title: "Rails", class: 'project-technology-1' %>
+              <%= image_tag "postgresql.png", class: 'project-technology-1', title: "PostgreSQL" %></p>
           </div>
           <p>The first collaborative effort between my Le Wagon team also featuring Lauren Smalley, Brenden Nackerman, and
             Diana Pinon. This app was made with care by Ruby and Rails, deployed with Heroku. This app brings teachers and
@@ -55,12 +55,12 @@
           <%= image_tag "mr-cocktail.jpg", style: 'width:15vw;', class: "my-card-image" %>
         </div> -->
         <div class="col-md-8 col-12 my-card-content">
-          <div class="title d-flex">
-            <h4 class="pr-2 d-flex"><a href="https://sean-mr-cocktail.herokuapp.com/" target="_blank" style="width: 12vw;">Sir Cocktail</a></h4>
+          <div class="title d-flex flex-md-row flex-column">
+            <h4 class="pr-2 d-flex"><a href="https://sean-mr-cocktail.herokuapp.com/" class="project-title-cocktail" target="_blank">Sir Cocktail</a></h4>
             <p><i
-                class="fab fa-css3 pr-2"></i><%= image_tag "ruby.png", title: "Ruby", style: 'width: 8%; padding-bottom: 4px;' %>
-              <%= image_tag "rails.png", title: "Rails", style: 'width: 8%; padding-bottom: 4px;' %>
-              <%= image_tag "postgresql.png", style: 'width: 8%; padding-bottom: 4px;', title: "PostgreSQL" %><%= image_tag "html-5.png", style: 'width: 8%; padding-bottom: 4px;', title: "HTML-5" %>
+                class="project-css fab fa-css3 pr-2"></i><%= image_tag "ruby.png", title: "Ruby", class: 'project-technology' %>
+              <%= image_tag "rails.png", title: "Rails", class: 'project-technology' %>
+              <%= image_tag "postgresql.png", class: 'project-technology', title: "PostgreSQL" %><%= image_tag "html-5.png", class: 'project-technology', title: "HTML-5" %>
             </p>
           </div>
           <p>Mr. Cocktail was my first MVC project with rails. This is a simple showcase that utilizes an api for seeding,
