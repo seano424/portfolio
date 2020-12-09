@@ -16,7 +16,11 @@
   <div id="examples">
     <div class="example">
       <span class="hover hover-1">
-        <%= link_to "Projects", projects_path, class: "tabs", id: "project-tab" %>
+        <% if current_page?(:controller => 'pages', :action => 'projects') %>
+          <%= link_to "Sean OReilly", projects_path, class: "tabs", id: "project-tab" %>
+        <% else %>
+          <%= link_to "Projects", projects_path, class: "tabs pr-5 mr-2", id: "project-tab" %>
+        <% end %>
       </span>
     </div>
   </div>
@@ -34,7 +38,7 @@
 <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
