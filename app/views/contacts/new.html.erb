@@ -1,4 +1,4 @@
-<%= simple_form_for @contact do |f| %>
+<%= simple_form_for @contact, :html=> { class: 'mt-3' } do |f| %>
   <%= f.input :name, label: 'Your name please', error: 'Username is mandatory, please specify one' %>
   <%= f.input :email, placeholder: 'heysean@gmail.com' %>
   <%= f.input :message, :as => :text, :input_html => { 'rows' => 5, 'cols' => 10 } %>
