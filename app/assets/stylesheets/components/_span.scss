@@ -1,9 +1,12 @@
-span {
-  text-decoration: underline;
-  text-decoration-color: $primary;
-  &:hover {
-    text-decoration: none;
+.home {
+  span {
+    background-color: $primary;
+    color: white;
+    &:hover {
+      text-decoration: none;
+    }
   }
+
 }
 
   .heroku:hover {

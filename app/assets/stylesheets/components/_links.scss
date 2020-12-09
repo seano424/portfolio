@@ -1,7 +1,11 @@
-p > a {
-  font-weight: 600;
+a {
   &:hover {
-    text-decoration: none;
-    color: #00C2D1;
+    color: rgb(255, 0, 127);
+  }
+}
+
+.home-links {
+  &:hover {
+    text-decoration-color: rgb(255, 0, 127);
   }
 }

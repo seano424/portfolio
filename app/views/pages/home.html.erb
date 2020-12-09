@@ -2,10 +2,10 @@
 <div class="d-flex flex-column mt-3">
   <h2>Sean O'Reilly</h2>
   <%= image_tag "sean.jpg", style: "width: 30%" %>
-  <p class="pt-3">I love building performant, maintainable web applications with <span>Ruby on Rails</span>, while continuing to add tools like <span>React</span>, <span>JS</span>, and other technologies to my knowledge, and also writing about my experiences with working remotely while travelling the world.</p>
-  <p>A recent graduate from the acclaimed <span> <a href="https://www.lewagon.com/mexico" target="_blank" style="color: inherit; text-decoration-color: rgb(255, 36, 0);">Le Wagon</a></span> international bootcamp, I come prepared and excited to grow and learn as a developer.</p>
-  <p>Have a project you think we'd work well on together? Get in touch!</p>
-
+  <p class="pt-3 home">I love building performant, maintainable web applications with <span>Ruby on Rails</span>, while continuing to add tools like <span>React</span>, <span>JavaScript</span>, and other technologies to my knowledge, and also writing about my experiences with working remotely while travelling the world.</p>
+  <p>A recent graduate from the acclaimed <a class="home-links" href="https://www.lewagon.com/mexico" target="_blank">Le Wagon</a> international bootcamp, I come prepared and excited to grow and learn as a developer.</p>
+  <p>Have a project you think we'd work well on together? <%= link_to "Get in touch!", new_contact_path, class: "home-links" %></p>
+  
   <h3 class="my-3">Projects I've worked on recently ...</h3>
 
   <p><a href="https://www.booklub.xyz/" target="_blank">Booklub: </a>The easiest book club app in the world</p>

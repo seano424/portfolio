@@ -11,6 +11,8 @@
 //   width: 40px;
 // }
 
+
+
 .portfolio-nav {
   font-size: 2rem;
   a {
@@ -29,3 +31,80 @@
     flex-direction: column;
   }
 }
+
+$animate: all 0.1s ease-in-out;
+#examples {
+  
+  .example {
+    .hover {
+      font-size: 36px;
+      text-align: center;
+      margin: 0 auto;
+      padding: 0;
+      transition: $animate;
+      position: relative;
+      &:before,
+      &:after {
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        width: 0px;
+        height: 5px;
+        margin: 5px 0 0;
+        transition: $animate;
+        transition-duration: 0.45s;
+        opacity: 0;
+        background-color: darken($primary,5%);
+      }
+      &.hover-1 {
+        &:before,
+        &:after {
+          left: 0;
+        }
+      }
+    }
+    &:hover {
+      cursor: pointer;
+      .hover {
+        &:before,
+        &:after {
+          width: 100%;
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

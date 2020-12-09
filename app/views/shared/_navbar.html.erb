@@ -1,8 +1,35 @@
-<nav class="portfolio-nav">
-  <%= link_to "Home", root_path, class: "my-name active tabs" %>
-  <%= link_to "About", about_path, class: "tabs" %>
-  <%= link_to "Projects", projects_path, class: "tabs" %>
-  <%= link_to "Get in touch", new_contact_path, class: "tabs", style: "background: #21FDE1; " %>
+<nav class="portfolio-nav d-flex">
+  <div id="examples">
+    <div class="example">
+      <span class="hover hover-1">
+        <%= link_to "Home", root_path, class: "my-name active tabs" %>
+      </span>
+    </div>
+  </div>
+  <div id="examples">
+    <div class="example">
+      <span class="hover hover-1">
+        <%= link_to "About", about_path, class: "tabs" %>
+      </span>
+    </div>
+  </div>
+  <div id="examples">
+    <div class="example">
+      <span class="hover hover-1">
+        <%= link_to "Projects", projects_path, class: "tabs" %>
+      </span>
+    </div>
+  </div>
+  <div id="examples">
+    <div class="example">
+      <span class="hover hover-1">
+        <%= link_to "Get in touch", new_contact_path, class: "tabs", style: "background: #21FDE1; " %>
+      </span>
+    </div>
+  </div>
+  
+  
+  
 
   <!-- <a href="#">About</a> -->
   <!-- <a href="#">Projects</a> -->
