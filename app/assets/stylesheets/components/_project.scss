@@ -1,9 +1,9 @@
-.project-technology {
+.project-icons {
   width: 8%;
   padding-bottom: 4px;
 }
 
-.project-technology-1 {
+.project-icons-1 {
   width: 6%;
   padding-bottom: 4px;
 }
@@ -14,12 +14,12 @@
 
 
 @include media-breakpoint-down(md) {
-  .project-technology {
+  .project-icons {
     width: 8%;
     padding-bottom: 4px;
   }
   
-  .project-technology-1 {
+  .project-icons-1 {
     width: 10%;
   }
   .project-title-cocktail {
@@ -27,15 +27,28 @@
   }
 }
 @include media-breakpoint-down(sm) {
-  .project-technology {
+  .project-icons {
     width: 8%;
     padding-bottom: 4px;
   }
   
-  .project-technology-1 {
+  .project-icons-1 {
+    width: 13%;
+  }
+  .project-title-cocktail {
+    width: 17vw;
+  }
+}
+@include media-breakpoint-down(xs) {
+  .project-icons {
+    width: 8%;
+    padding-bottom: 4px;
+  }
+  
+  .project-icons-1 {
     width: 20%;
   }
-  .project-technology {
+  .project-icons {
     width: 20%;
   }
   .project-title-cocktail {

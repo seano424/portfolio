@@ -18,7 +18,8 @@ h3 {
 @include media-breakpoint-down(md) {
   .big-header {
     font-size: 10rem;
-    padding-bottom: 8rem;
+    padding-top: 2rem;
+    padding-bottom: 6rem;
   }
 }
 
