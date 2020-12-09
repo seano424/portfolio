@@ -26,12 +26,14 @@ import "bootstrap";
 // Internal imports, e.g:
 // import { initSelect2 } from '../components/init_select2';
 import { loader } from './loader';
-import { tabs } from './tabs.js';
+// import { tabs } from './tabs.js';
+import { projectName } from './projectname.js';
 
 
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
   // initSelect2();
-  tabs();
+  // tabs();
   loader();
+  projectName();
 });
