@@ -1,9 +1,14 @@
-<footer class="text-center my-5">
-  <p class="pt-3">© 2020 Sean O'Reilly. All rights reserved.</p>
-  <div class="footer-links">
-    <a href="https://www.instagram.com/sea.oreilly/" target="_blank"><i class="pr-2 fab fa-instagram"></i></a>
-    <a href="https://github.com/seano424" target="_blank"><i class="pr-2 fab fa-github-square"></i></a>
-    <a href="https://www.linkedin.com/in/sea-oreilly/" target="_blank"><i class="pr-2 fab fa-linkedin"></i></a>
-    <a href="https://twitter.com/sea_oreilly" target="_blank"><i class="fab fa-twitter"></i></a>
-  </div>
-</footer>
+<% if current_page?(:controller => 'contacts', :action => 'new') %>
+  <footer class="text-center my-1">
+<% else %>
+  <footer class="text-center my-5">
+<% end %>  
+    <p class="pt-3">© 2020 Sean O'Reilly. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="https://www.instagram.com/sea.oreilly/" target="_blank"><i class="pr-2 fab fa-instagram"></i></a>
+      <a href="https://github.com/seano424" target="_blank"><i class="pr-2 fab fa-github-square"></i></a>
+      <a href="https://www.linkedin.com/in/sea-oreilly/" target="_blank"><i class="pr-2 fab fa-linkedin"></i></a>
+      <a href="https://twitter.com/sea_oreilly" target="_blank"><i class="fab fa-twitter"></i></a>
+    </div>
+  </footer>
+
