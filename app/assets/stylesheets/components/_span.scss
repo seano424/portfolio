@@ -1,6 +1,6 @@
 span {
   text-decoration: underline;
-  text-decoration-color: red;
+  text-decoration-color: $primary;
   &:hover {
     text-decoration: none;
   }
@@ -16,7 +16,7 @@ span {
     color: tomato;
   }
   .jq:hover {
-    color: salmon;
+    color: #DDF9C1;
   }
   .vanilla:hover {
     color: darkorchid;
@@ -25,8 +25,8 @@ span {
     color: violet;
   }
   .git:hover {
-    color: olivedrab;
+    color: #21FDE1;
   }
   .postgresql:hover {
-    color: darkturquoise;
+    color: #FF007F;
   }
