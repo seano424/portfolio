@@ -12,13 +12,33 @@
   width: 12vw;
 }
 
+.project-p {
+  font-size: 1.2rem;
+}
+
+.project-sass,
+.project-js {
+  font-size: 2rem;
+  position: relative;
+  top: 5px;
+}
+
+.project-css {
+  position: relative;
+  top: 7px;
+  font-size: 2.3rem;
+}
+
+.project-title {
+  font-size: 2.4rem;
+}
 
 @include media-breakpoint-down(md) {
   .project-icons {
     width: 8%;
     padding-bottom: 4px;
   }
-  
+
   .project-icons-1 {
     width: 10%;
   }
@@ -31,7 +51,7 @@
     width: 8%;
     padding-bottom: 4px;
   }
-  
+
   .project-icons-1 {
     width: 13%;
   }
@@ -44,7 +64,7 @@
     width: 8%;
     padding-bottom: 4px;
   }
-  
+
   .project-icons-1 {
     width: 20%;
   }

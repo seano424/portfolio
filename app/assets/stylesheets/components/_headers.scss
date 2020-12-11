@@ -6,14 +6,13 @@ h3 {
 
 .big-header {
   top: 36px;
-  right: 16px;
-  font-size: 14rem;
+  right: 7px;
+  font-size: 7vw;
   position: relative;
   &:hover {
     color: $primary;
   }
 }
-
 
 @include media-breakpoint-down(md) {
   .big-header {
@@ -29,4 +28,3 @@ h3 {
     padding-bottom: 2rem;
   }
 }
-
