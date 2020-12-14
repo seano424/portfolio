@@ -14,14 +14,11 @@ h3 {
 @include media-breakpoint-down(md) {
   .big-header {
     font-size: 10rem;
-    padding-top: 2rem;
-    padding-bottom: 6rem;
   }
 }
 
 @include media-breakpoint-down(sm) {
   .big-header {
     font-size: 4rem;
-    padding-bottom: 2rem;
   }
 }

@@ -14,3 +14,10 @@
 body {
   background-color:#fff;
 }
+
+
+@include media-breakpoint-down(sm) {
+  .Site-content {
+    width: 70vw;
+  }
+}

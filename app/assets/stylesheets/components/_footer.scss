@@ -7,3 +7,10 @@ footer {
 .footer-links a {
   color: blueviolet;
 }
+
+@include media-breakpoint-down(sm) {
+  footer {
+    width: 80vw;
+    margin: 0 auto;
+  }
+}
