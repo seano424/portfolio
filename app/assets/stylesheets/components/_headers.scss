@@ -6,6 +6,8 @@ h3 {
 
 .big-header {
   font-size: 5.7rem;
+  position: relative;
+  right: 6px;
   &:hover {
     color: $primary;
   }
