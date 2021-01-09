@@ -1,19 +1,42 @@
 
-<section id="header" class="pt-4">
+<!-- <section id="header" class="pt-4">
   <a href="#content", style="text-decoration: none; color: black;">
     <h1 class="big-header">Recent Projects</h1>
   </a>
-</section>
+</section> -->
 
 <section id="content" class="pt-2">
   <div class="py-3 pr-4">
-    <div class="my-card border-bottom">
+    <div class="my-card py-5 mb-4 border-bottom">
+      <div class="row">
+        <div class="col-md-6 d-none d-md-block">
+          <p class="project-p text-right pb-2"><i class="fab fa-js-square project-js pr-2"></i><i class="fab fa-sass project-sass"></i>
+            <%= image_tag "heroku.png", title: "Heroku", class: 'project-icons-1' %>
+            <%= image_tag "ruby.png", title: "Ruby", class: 'project-icons-1' %>
+            <%= image_tag "rails.png", title: "Rails", class: 'project-icons-1' %>
+            <%= image_tag "postgresql.png", class: 'project-icons-1', title: "PostgreSQL" %>
+          </p>
+          <%= image_tag "squidy.png", class: "portfolio-images", style: "object-position: left;"%>
+        </div>
+        <div class="col-md-6 col-12 my-card-content pr-0">
+          <div class="title d-flex flex-md-row flex-column">
+            <h4 class="project-title pt-1 mb-0 pr-4"><a href="https://squidiapp.herokuapp.com/" target="_blank">Squidy App</a></h4>
+            <hr>
+          </div>
+          <p class="pt-5 mt-2">A collabortive effort with <a style="text-decoration: none;" href="https://www.linkedin.com/in/diana-pinon/" target="_blank">Diana Pinon</a>, where we worked with the MapBox API to create our own tracking app. We created this app with Rails, in combination with JS, Ruby, and SCSS. This app allows users to add places to a list, vote on them, and add reviews.</p>
+        </div>
+      </div>
+      <a href="#booklub"><i class="fas fa-arrow-down d-flex justify-content-center pt-5"></i></a>
+      <div class="circle-line"></div>
+    </div>
+
+    <div id="booklub" class="my-card border-bottom">
       <div class="row">
         <div class="col-md-6 col-12 my-card-content text-md-right pl-md-0">
           <div class="title pt-4 pt-lg-1 d-flex flex-md-row-reverse flex-column">
-            <h4 class="project-title pl-md-4"><a href="https://www.booklub.xyz/" target="_blank">Booklub</a></h4>
+            <h4 class="project-title mb-0 pl-md-4 pt-1"><a href="https://www.booklub.xyz/" target="_blank">Booklub</a></h4>
           </div>
-          <p class="project-p-l">In collaboration with Lauren Smalley, Brenden Nackerman, Diana Pinon, and myself, our team created this Ruby
+          <p class="pt-5 mt-2 pl-4">In collaboration with <a style="text-decoration: none;" href="https://www.linkedin.com/in/lauren-a-smalley/" target="_blank">Lauren Smalley</a>, <a style="text-decoration: none;" href="https://www.linkedin.com/in/brenden-nackerman/" target="_blank">Brenden Nackerman</a>, <a style="text-decoration: none;" href="https://www.linkedin.com/in/diana-pinon/" target="_blank">Diana Pinon</a>, and myself, our team created this Ruby
             on Rails app, deployed on heroku, using PostgreSQL. This is an app designed to bring book enthusiasts together
             with distance book clubs.</p>
         </div>
@@ -24,13 +47,14 @@
             <%= image_tag "rails.png", title: "Rails", class: 'project-icons-1' %>
             <%= image_tag "postgresql.png", class: 'project-icons-1', title: "PostgreSQL" %>
           </p>
-          <%= image_tag "v2-booklub.jpg", class: "portfolio-images"%>
+          <%= image_tag "booklub.png", class: "portfolio-images"%>
         </div>
       </div>
-      <div class="circle-line-1"></div>
+      <a href="#schoolgoal"><i class="fas fa-arrow-down d-flex justify-content-center pt-5"></i></a>
+      <div class="circle-line-1 pt-5"></div>
     </div>
 
-    <div class="my-card py-4 mb-4 mt-4 border-bottom">
+    <div id="schoolgoal" class="my-card py-4 mb-4 mt-4 border-bottom">
       <div class="row">
         <div class="col-md-6 d-none d-md-block">
           <p class="project-p text-right pb-2"><i class="fab fa-js-square project-js pr-2"></i><i class="fab fa-sass project-sass"></i>
@@ -39,30 +63,28 @@
             <%= image_tag "rails.png", title: "Rails", class: 'project-icons-1' %>
             <%= image_tag "postgresql.png", class: 'project-icons-1', title: "PostgreSQL" %>
           </p>
-          <%= image_tag "v2-schoolgoal.jpg", class: "portfolio-images"%>
+          <%= image_tag "schoolgoal.png", class: "portfolio-images"%>
         </div>
         <div class="col-md-6 col-12 my-card-content pr-0">
           <div class="title d-flex flex-md-row flex-column">
-            <h4 class="project-title pr-4"><a href="http://schoolgoal.herokuapp.com/" target="_blank">Schoolgoal</a></h4>
+            <h4 class="project-title pt-1 mb-0 pr-4"><a href="http://schoolgoal.herokuapp.com/" target="_blank">Schoolgoal</a></h4>
           </div>
-          <p class="project-p-r">The first collaborative effort between my Le Wagon team also featuring Lauren Smalley, Brenden Nackerman, and
-            Diana Pinon. This app was made with care by Ruby on Rails, deployed with Heroku. This app brings teachers and
+          <p class="pt-5 mt-2">The first collaborative effort between my Le Wagon team also featuring <a style="text-decoration: none;" href="https://www.linkedin.com/in/lauren-a-smalley/" target="_blank">Lauren Smalley</a>, <a style="text-decoration: none;" href="https://www.linkedin.com/in/brenden-nackerman/" target="_blank">Brenden Nackerman</a>, <a style="text-decoration: none;" href="https://www.linkedin.com/in/diana-pinon/" target="_blank">Diana Pinon</a>. This app was made with care by Ruby on Rails, deployed with Heroku. This app brings teachers and
             students together for niche distance learning.</p>
-            <p class="project-p"></p>
         </div>
       </div>
-      <a href="#bottom"><i class="fas fa-arrow-down d-flex justify-content-center"></i></a>
+      <a href="#bottom"><i class="fas fa-arrow-down d-flex justify-content-center pt-5"></i></a>
       <div class="circle-line"></div>
     </div>
 
     <section id="bottom"></section>
-    <div class="my-card pr-4 mb-4 border-bottom">
+    <div class="my-card mb-4 border-bottom">
       <div class="row">
         <div class="col-12 col-md-6 my-card-content text-md-right pl-md-0">
           <div class="title d-flex flex-md-row-reverse flex-column">
-            <h4 class="d-flex"><a href="https://sean-mr-cocktail.herokuapp.com/" class="project-title" target="_blank">Mr. Cocktail</a></h4>
+            <h4 class="d-flex project-title pt-1 mb-0"><a href="https://sean-mr-cocktail.herokuapp.com/" target="_blank">Mr. Cocktail</a></h4>
           </div>
-          <p class="project-p">Mr. Cocktail was my first MVC project with rails. This is a simple showcase that utilizes an api for seeding,
+          <p class="pt-5 mt-2 pl-4">Mr. Cocktail was my first MVC project with rails. This is a simple showcase that utilizes an api for seeding,
             PostgreSQL for the database, and bootstrap for the majority of the design.</p>
         </div>
         <div class="col-md-6 d-none d-md-block">
@@ -73,7 +95,7 @@
           <%= image_tag "v3-mr-cocktail.jpg", class: "portfolio-images" %>
         </div>
       </div>
-      <div class="circle-line-1"></div>
+      <div class="circle-line-1 pt-5"></div>
     </div>
   </div>
 </section>
