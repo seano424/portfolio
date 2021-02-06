@@ -42,8 +42,8 @@ Rails.application.configure do
     domain: 'gmail.com',
     authentication: 'plain',
     enable_starttls_auto: true,
-    user_name: ENV['SENDGRID_USERNAME'],
-    password: ENV['SENDGRID_PASSWORD']
+    user_name: ENV['GOOGLE_USERNAME'],
+    password: ENV['GOOGLE_PASSWORD']
 }
 
   config.action_mailer.perform_caching = false

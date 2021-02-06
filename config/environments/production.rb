@@ -116,13 +116,13 @@ Rails.application.configure do
   config.action_mailer.delivery_method = :smtp
 
   ActionMailer::Base.smtp_settings = {
-    :address => 'smtp.sendgrid.net',
-    :port => 587,
-    :domain => 'seanoreilly.me',
-    :authentication => :plain,
-    :enable_starttls_auto => true,
-    :user_name => 'apikey',
-    :password => ENV['SENDGRID_API_KEY'],
+    address: 'smtp.gmail.com',
+    port: 587,
+    domain: 'gmail.com',
+    authentication: 'plain',
+    enable_starttls_auto: true,
+    user_name: ENV['GOOGLE_USERNAME'],
+    password: ENV['GOOGLE_PASSWORD']
   }
 end
 
