@@ -30,7 +30,10 @@
   </head>
 
   <body class="Site">
-    <main class="Site-content"><%= render 'shared/navbar' %><%= yield %></main>
+    <main class="Site-content">
+      <%= render 'shared/navbar' %>
+      <%= yield %>
+    </main>
     <footer><%= render 'shared/footer' %></footer>
   </body>
 </html>
